@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="https://img.ibxk.com.br/2021/12/17/17111933272147.png?ims=328x" type="image/png">
+    <title>Hello World</title>
+    
+  </head>
+
+  <body>
+
+    <div id="texto"></div>
+
+    <script>
+    var texto = 'Hello World (≧∇≦)';
+    var div = document.getElementById('texto');
+    var i = 0;
+    
+    function typeWriter() {
+        if (i < texto.length) {
+            div.innerHTML += texto.charAt(i);
+            i++;
+            setTimeout(typeWriter, 110); 
+        }
+    }
+    
+    typeWriter();
+    </script>  
+
+  </body>
+
+</html>

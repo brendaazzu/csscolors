@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+#texto {
+            font-size: 100px;
+            color: #fcf5fc;
+            text-shadow:
+              0 0 2.5px ,
+              0 0 5px #f029d2,
+              0 0 10px #f029d2,
+              0 0 15px #f029d2,
+              0 0 20px #f029d2,
+              0 0 25px #f029d2;
+            font-family: 'Bruno Ace', sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+}
+
+body {
+  background-color: rgb(14, 14, 14);
+}
